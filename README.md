@@ -1,4 +1,4 @@
-# Mini-Vector (Custom Dynamic Array in C++)
+# Mini-Vector - A C++ Template-Based Dynamic Array Implementation (like std::vector)
 A small C++ project where I implemented my own dynamic array class (MiniVector) from scratch. similar to how "std::vector" works internally.
 
 Features:
@@ -9,7 +9,7 @@ Features:
 - Easy to use "Add()", "Display()" and "Length()" functions
 
 #Example Usage
-cpp:
+```cpp
 #include "MiniVector.h"
 #include <iostream>
 using namespace std;
@@ -21,7 +21,7 @@ int main() {
     }
     nums.Display(); // Output: 1 2 3 4 5 6 7 8
 }
-
+```
 #What I Learned:
 - How dynamic arrays like std::vector grow and manage memory
 - Deep understanding of pointers, templates, and operator overloading
