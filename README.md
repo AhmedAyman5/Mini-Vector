@@ -1,11 +1,14 @@
 # Mini-Vector - A C++ Template-Based Dynamic Array Implementation (like std::vector)
-A small C++ project where I implemented my own dynamic array class (MiniVector) from scratch. similar to how "std::vector" works internally.
+A small C++ project where I implemented my own dynamic array class (MiniVector) from scratch.
+similar to how "std::vector" works internally.
+Supports resizing, generic types and operator overloading.
 
 Features:
 - Template class supporting any data type (int, float, string, custom class, etc)
 - Automatic resizing (doubles capacity when full)
-- Indexing operator "[]" overload
-- Dynamic memory allocation and cleanup (using "new" and "delete")
+- Indexing operator "[]" overload (Element access via [] operator)
+- Safe bounds checking
+- Dynamic memory allocation and cleanup (using "new" and "delete") (Destructor for memory cleanup)
 - Easy to use "Add()", "Display()" and "Length()" functions
 
 #Example Usage
@@ -30,9 +33,14 @@ int main() {
 #Future Improvements:
 - Add iterator support (like STL)
 - Add Remove(), Find(), InsertAt()
-- Implement exception classes instead of exit(1)
+- Add copy/move constructors for safe object copying
 - and more
 
 #Technologies:
 - C++
+
+#Author
+Ahmed Ayman
+Software Engineering Student, Mansoura University
+Passionate about systems programming and data structures.
 
