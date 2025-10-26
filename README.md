@@ -2,6 +2,11 @@
 ### A small C++ project where I implemented my own **dynamic array class (`MiniVector`)** from scratch - similar to how `std::vector` works internally.  
 It supports **resizing, generic types, and operator overloading**, giving a deep understanding of how containers manage memory under the hood.
 
+![C++](https://img.shields.io/badge/Language-C++-blue)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
+
+
 ---
 
 ## Features
@@ -54,9 +59,7 @@ int main() {
 - Ahmed Ayman
 - Software Engineering Student, Mansoura University
 - Passionate about systems programming, data structures, and low-level software design.
-
-
-
+- [LinkedIn](www.linkedin.com/in/ahmed-ayman-hassan/)
 
 
 
