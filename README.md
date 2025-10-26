@@ -1,5 +1,5 @@
 # Mini-Vector - A C++ Template-Based Dynamic Array Implementation (like `std::vector`)
-### A small C++ project where I implemented my own **dynamic array class (`MiniVector`)** from scratch — similar to how `std::vector` works internally.  
+### A small C++ project where I implemented my own **dynamic array class (`MiniVector`)** from scratch - similar to how `std::vector` works internally.  
 It supports **resizing, generic types, and operator overloading**, giving a deep understanding of how containers manage memory under the hood.
 
 ---
