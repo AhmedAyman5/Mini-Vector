@@ -30,6 +30,9 @@ int main() {
 - Deep understanding of pointers, templates, and operator overloading
 - Object-oriented design and generic programming concepts
 
+#word:
+- This project helps me to real understanding of data structure fundamentals, object-oriented design and system-level programming.
+
 #Future Improvements:
 - Add iterator support (like STL)
 - Add Remove(), Find(), InsertAt()
@@ -39,7 +42,8 @@ int main() {
 #Technologies:
 - C++
 
-#Author
+#Author:
+
 Ahmed Ayman
 Software Engineering Student, Mansoura University
 Passionate about systems programming and data structures.
