@@ -1,5 +1,5 @@
 # Mini-Vector - A C++ Template-Based Dynamic Array Implementation (like std::vector)
-A small C++ project where I implemented my own dynamic array class (MiniVector) from scratch.
+### A small C++ project where I implemented my own dynamic array class (MiniVector) from scratch.
 similar to how "std::vector" works internally.
 Supports resizing, generic types and operator overloading.
 
@@ -43,8 +43,48 @@ int main() {
 - C++
 
 #Author:
+- Ahmed Ayman
+- Software Engineering Student, Mansoura University
+- Passionate about systems programming and data structures.
 
-Ahmed Ayman
-Software Engineering Student, Mansoura University
-Passionate about systems programming and data structures.
+
+
+
+# 🧱 Mini-Vector  
+### A C++ Template-Based Dynamic Array Implementation (like `std::vector`)
+
+A small C++ project where I implemented my own **dynamic array class (`MiniVector`)** from scratch — similar to how `std::vector` works internally.  
+It supports **resizing, generic types, and operator overloading**, giving a deep understanding of how containers manage memory under the hood.
+
+---
+
+## 🚀 Features
+- 🧩 **Template class** supporting any data type (`int`, `float`, `string`, or custom classes)
+- 📈 **Automatic resizing** — doubles capacity when full  
+- 🎯 **Indexing operator (`[]`) overload** for element access  
+- 🧠 **Safe bounds checking**  
+- ⚙️ **Dynamic memory management** using `new` and `delete`  
+- 🧹 **Destructor** for proper memory cleanup  
+- 💬 Easy-to-use methods: `Add()`, `Display()`, and `Length()`
+
+---
+
+## 🧩 Example Usage
+
+```cpp
+#include "MiniVector.h"
+#include <iostream>
+using namespace std;
+
+int main() {
+    MyList<int> nums(5);
+    for (int i = 0; i < nums.Length(); ++i) {
+        nums.Add(i + 1);
+    }
+
+    nums.Add(6);
+    nums.Add(7);
+    nums.Display(); // Output: 1 2 3 4 5 6 7
+}
+
 
